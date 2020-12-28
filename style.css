@@ -1,0 +1,140 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body {
+    background-color:rgb(230, 230, 230);
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Slab',"Open Sans", Arial, Helvetica;
+}
+h3 {
+    color: rgb(73, 72, 72);
+    font-weight: 400;
+}
+ul {
+    margin: 0;
+}
+
+.top-container {
+    height: 75vh;
+    margin-left: 4%;
+    margin-right: 4%;
+    background-color: rgb(192, 55, 55);
+    text-align: center;
+}
+.nav {
+    margin: 0 45px;
+    padding: 40px 0;
+    border-bottom: 1px solid white;
+    animation: load-animation 0.5s ease-in;
+    animation-fill-mode: forwards;
+    transform: translateY(-20px);
+    opacity: 0;
+}
+
+@keyframes load-animation {
+    0% {
+        transform: translateY(-40px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
+.nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+.nav ul li {
+    margin: 0 2.5em;
+}
+
+.nav a {
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 1.2rem;
+    font-weight: bolder;
+}
+.nav a:hover {
+    color: rgb(245, 167, 167);
+}
+.main-heading {
+    max-width: 800px;
+    font-size: 3rem;
+    color: white;
+    padding: 20px;
+    margin: 100px auto;
+    animation: load-heading-animation 0.5s ease-in;
+    animation-fill-mode: forwards;
+    transform: translateX(-20px);
+    opacity: 0;
+}
+
+@keyframes load-heading-animation {
+    0% {
+        transform: translateX(-80px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0px);
+        opacity: 1;
+    }
+}
+
+
+
+
+.cta {
+    text-decoration: none;
+    background-color: white;
+    padding: 20px 50px;
+    color: rgb(192, 55, 55);
+    font-weight: bolder;
+}
+.cta:hover {
+    background-color: rgb(247, 227, 227);
+}
+
+
+.intro {
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 4%;
+    margin-right: 4%;
+}
+.heading {
+    font-size: 2.5rem;
+    color: rgb(31, 30, 30);
+}
+
+.sub-heading {
+    font-weight: bolder;
+    color: rgb(192, 55, 55);
+}
+
+.works1 {
+    background-color: #fff;
+    background-image: url(https://images.pexels.com/photos/380769/pexels-photo-380769.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 600px;
+    height: 400px;
+    margin: 65px auto;
+}
+.works2 {
+    background-color: #fff;
+    background-image: url(https://images.pexels.com/photos/3184357/pexels-photo-3184357.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 600px;
+    height: 400px;
+    margin: 65px auto;
+}
+
+
+
+
+
