@@ -1,6 +1,11 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
+:root {
+    --main-color: rgb(7, 136, 168);
+    --main-secondary-color :rgb(152, 209, 204);
+}
+
 body {
     background-color:rgb(230, 230, 230);
     margin: 0;
@@ -19,7 +24,7 @@ ul {
     height: 75vh;
     margin-left: 4%;
     margin-right: 4%;
-    background-color: rgb(192, 55, 55);
+    background-color: var(--main-color);
     text-align: center;
 }
 .nav {
@@ -59,7 +64,7 @@ ul {
     font-weight: bolder;
 }
 .nav a:hover {
-    color: rgb(245, 167, 167);
+    color: var(--main-secondary-color);
 }
 .main-heading {
     max-width: 800px;
@@ -88,10 +93,11 @@ ul {
 
 
 .cta {
+    letter-spacing: 0.1em;
     text-decoration: none;
     background-color: white;
     padding: 20px 50px;
-    color: rgb(192, 55, 55);
+    color: var(--main-color);
     font-weight: bolder;
 }
 .cta:hover {
@@ -112,7 +118,7 @@ ul {
 
 .sub-heading {
     font-weight: bolder;
-    color: rgb(192, 55, 55);
+    color:var(--main-color);
 }
 
 .works1 {
@@ -134,7 +140,21 @@ ul {
     margin: 65px auto;
 }
 
+.hr{
+    margin: 0px auto;
+    background-color: rgb(219, 213, 213);
+    height: 140px;
+    width: 4px;
+    z-index: 1;
+}
 
+.hr-top{
+    margin: 0px auto;
+    background-color: rgb(231, 226, 226);
+    height: 140px;
+    width: 4px;
+    z-index: 1;
+}
 
 
 
